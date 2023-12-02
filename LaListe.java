@@ -30,12 +30,12 @@ public class LaListe {
 	    }
 	}
 	
-	public void insererElement(Machine mach, int i) {
+	public void inserer(Machine mach, int i) {
 	    machine.add(i, mach);
 	}
 
-	public Machine recupererElement(int index) {
-	    return machine.get(index);
+	public Machine recuperer(int i) {
+	    return machine.get(i);
 	}
 	
 	public void supp(Machine mach) {
